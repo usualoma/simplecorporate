@@ -1,4 +1,7 @@
 id: simplecorporate
+label: 'Simple Corporate'
+name: 'Simple Corporate'
+version: 1.01
 elements:
   blog_static_files:
     component: ~
@@ -32,10 +35,6 @@ elements:
             label: インデックスページ
             outfile: index.html
             rebuild_me: 1
-          javascript:
-            label: JavaScript
-            outfile: mt.js
-            rebuild_me: 1
           main_index:
             label: 'ニュース TOP'
             outfile: news.html
@@ -44,10 +43,6 @@ elements:
             label: スタイルシート
             outfile: styles.css
             rebuild_me: 1
-          template_11973:
-            label: common.js
-            outfile: common.js
-            rebuild_me: 1
         individual:
           entry:
             label: 記事
@@ -55,21 +50,21 @@ elements:
               individual:
                 archive_type: Individual
         module:
-          template_11902:
+          header:
             label: header
-          template_11905:
+          blog-sidemenu:
             label: blog-sidemenu
-          template_11906:
+          entry-list:
             label: entry-list
-          template_11907:
+          config:
             label: config
-          template_11908:
+          common_stylesheet:
             label: common_stylesheet
-          template_11909:
+          common_head_js:
             label: common_head_js
-          template_11910:
+          common_bottom_js:
             label: common_bottom_js
-          template_11911:
+          footer:
             label: footer
         page:
           page:
