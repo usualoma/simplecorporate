@@ -17,12 +17,12 @@ elements:
       templates:
         archive:
           category_entry_listing:
-            label: カテゴリ別記事リスト
+            label: カテゴリ別の記事リスト
             mappings:
               category:
                 archive_type: Category
           yearly_entry_listing:
-            label: 年別ブログ記事リスト
+            label: 年別ブログの記事リスト
             mappings:
               yearly:
                 archive_type: Yearly
